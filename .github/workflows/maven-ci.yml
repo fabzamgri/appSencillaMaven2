@@ -21,6 +21,9 @@ jobs:
 
     runs-on: ubuntu-latest # Usaremos una máquina Linux virtual
 
+    permissions:
+      contents: write
+
     steps:
     # Paso 1: Descargar el código
     - uses: actions/checkout@v4
