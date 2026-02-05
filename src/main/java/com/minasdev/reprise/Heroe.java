@@ -10,7 +10,7 @@ public class Heroe {
 
     // Constructor que usa la librería externa para generar datos
     /* Constructor por defecto que genera un héroe con nombre, título, fuerza y vida iniciales.
-       Utiliza la librería JavaFaker para crear nombres y títulos aleatorios.
+       Utiliza la librería JavaFaker para crear nombres y títulos aleatorios second attempt.
 
        @author Equipo MinasDev
        @version 1.0
