@@ -8,7 +8,7 @@ public class Heroe {
     private int fuerza;
     private int vida;
 
-    //Para el Maven
+    //Para el Maven 2 int
 
     // Constructor que usa la librería externa para generar datos
     /* Constructor por defecto que genera un héroe con nombre, título, fuerza y vida iniciales.
