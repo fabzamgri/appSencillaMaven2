@@ -8,6 +8,8 @@ public class Heroe {
     private int fuerza;
     private int vida;
 
+    //Para el Maven
+
     // Constructor que usa la librería externa para generar datos
     /* Constructor por defecto que genera un héroe con nombre, título, fuerza y vida iniciales.
        Utiliza la librería JavaFaker para crear nombres y títulos aleatorios second attempt.
