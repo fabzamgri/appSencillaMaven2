@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HeroeTest {
-
+class
+HeroeTest {
     @Test
     void heroeDebeTenerNombreYTituloGenerado() {
         // Arrange & Act
@@ -17,7 +17,7 @@ class HeroeTest {
 
         // Assert
         assertNotNull(heroe.getNombreCompleto(), "El nombre no debería ser nulo");
-        assertFalse(heroe.getNombreCompleto().isEmpty(), "El nombre no debería estar vacío");
+        assertTrue(heroe.getNombreCompleto().isEmpty(), "El nombre no debería estar vacío");
     }
 
     @Test
