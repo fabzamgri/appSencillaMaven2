@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HeroeTest {
-
+class
+HeroeTest {
     @Test
     void heroeDebeTenerNombreYTituloGenerado() {
         // Arrange & Act
