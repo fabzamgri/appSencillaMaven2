@@ -17,7 +17,7 @@ HeroeTest {
 
         // Assert
         assertNotNull(heroe.getNombreCompleto(), "El nombre no debería ser nulo");
-        assertTrue(heroe.getNombreCompleto().isEmpty(), "El nombre no debería estar vacío");
+        assertFalse(heroe.getNombreCompleto().isEmpty(), "El nombre no debería estar vacío");
     }
 
     @Test
